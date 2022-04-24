@@ -1,0 +1,9 @@
+/* Temporário */
+.partners {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--azul-marinho);
+    height: calc(100vh - 646.5px);
+}
+/* ---------- */
