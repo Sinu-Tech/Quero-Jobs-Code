@@ -5,20 +5,22 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>QueroJobs @ViewData["Title"]</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
 	<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
 	<link rel="stylesheet" href="~/QueroJobs.styles.css" asp-append-version="true" />
 	<link rel="stylesheet" href="~/lib/font-awesome/css/fontawesome.css" />
+	<link rel="stylesheet" href="~/css/reset.css">
 	<link rel="stylesheet" href="~/css/landing.css">
 	<link rel="stylesheet" href="~/css/partners.css">
 	<link rel="stylesheet" href="~/css/styles.css">
-	<link rel="stylesheet" href="~/css/reset.css">
 </head>
 
 <body>
 	<header>
-		<nav class="navbar navbar-expand-sm navbar-toggleable-sm border-bottom box-shadow"
-			 style="background-color: #D7DEDE;">
+		<nav class="navbar navbar-expand-sm navbar-toggleable-sm border-bottom box-shadow">
 			<div class="container-fluid">
 				<a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
 					<p>QueroJobs</p>
@@ -57,7 +59,7 @@
 	</header>
 	@RenderBody()
 
-	<footer class="border-top footer text-muted" style="background-color: #09B7CE;">
+	<footer class="footer text-muted" style="background-color: #09B7CE;">
 		<div class="container">
 			<p class="text-justify" style="text-align: center; color: white;">QueroJobs - 2022</p>
 		</div>
