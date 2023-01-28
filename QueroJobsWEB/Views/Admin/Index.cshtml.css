@@ -1,0 +1,68 @@
+﻿.collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: Center;
+    outline: none;
+    font-size: 15px;
+}
+
+.titulo_centro {
+    text-align: center;
+}
+
+.button_container {
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.button_update {
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button_remove {
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.active, .collapsible:hover {
+    background-color: #555;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1850px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
+}
+
+hr {
+    border: none;
+    background-color: #09B7CE;
+    height: 100px;
+    width: 1200px;
+    margin: 20px auto;
+}
+
+.menu {
+    
+    /*Flex wrap torna o site um pouco mais responsivo fazendo a quebra de items*/
+}
